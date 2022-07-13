@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Layout } from '../components/Layout'
 
-export const Nosotros = () => {
+const Nosotros = () => {
   return (
     <div>
       <Layout pagina='Sobre Nosotros'>
@@ -11,3 +11,5 @@ export const Nosotros = () => {
     </div>
   )
 }
+
+export default Nosotros

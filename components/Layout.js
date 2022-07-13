@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import { Header } from './Header'
 
 export const Layout = ({children, pagina }) => {
@@ -11,7 +12,7 @@ export const Layout = ({children, pagina }) => {
       </Head>
 
       <Header />
-      
+
       {children}
     </div>
   )
