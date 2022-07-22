@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div>
       <Layout pagina='Blog'>
-        <h1>Desde Blog</h1>
+        <h1>Desde Blog template</h1>
       </Layout>
     </div>
   )
